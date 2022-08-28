@@ -18,13 +18,13 @@ button {
 
 header {
     display: flex;
-    
+   
+  
 }
 .box1 {
   color: #fff;
   background-color: blue;
   width: 80%;
-  height: 80%;
   padding: 10rem 8rem 10rem 8rem;
 }
 h3 {
@@ -43,8 +43,6 @@ h2 {
     background-image: url(./assets/student.png);
     width: 100%;
     background-repeat: no-repeat;
-    
-    
 }
 
 
@@ -59,13 +57,14 @@ h2 {
 }
 
 nav {
-    width: 60%;
     background-color:rgb(43, 35, 35);
     position: relative;
+    width: 60%;
 }
 
 .box2 {
      color: #fff;
+    
   padding: 10rem 6rem 10rem 6rem;
 }
 
@@ -75,10 +74,48 @@ nav {
 
 .imgbox2 {
     background-image: url(./assets/student_blackboard.jpeg);
-    width: 90%;
+    width:90%;
   height: 70%;
   position: absolute;
   right: -60%;
-  top: 6vw;
+  top: 20%;
   background-repeat: no-repeat;
+}
+
+aside {
+  display: flex;
+  justify-content: space-between;
+}
+.box3 {
+    width: 55%;
+  color: black;
+  position: relative;
+  padding: 6rem 6rem 10rem 6rem;
+}
+
+.box3 h3{
+    text-transform: capitalize;
+    padding: 1rem;
+}
+.box3 p{
+    padding-right: 4rem;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.hand_img {
+    position: absolute;
+  right: -30%;
+  top: 30%;
+  width: 40%;
+  height: 50%;
+}
+
+.box4 {
+    width: 40%;
+   
+    background-color: blue;
 }
