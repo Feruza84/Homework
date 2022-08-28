@@ -130,6 +130,10 @@ aside {
     grid-template-columns: auto auto auto auto;
     
 }
+.our_team {
+    margin: 5rem;
+    text-align: center;
+}
 
 .workers_img {
     display: grid;
