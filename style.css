@@ -128,5 +128,18 @@ aside {
 .portfolio_img {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-color: #fff;
+    
 }
+
+.workers_img {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    box-sizing: border-box;
+}
+
+.workers_img h3{
+    text-align: center;
+    background-color: blue;
+    border: 1px solid black;
+}
+
